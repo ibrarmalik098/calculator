@@ -1,0 +1,97 @@
+body{
+
+    font-family:monospace ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main{
+
+
+    min-width: 400px;
+    max-width: 400px;
+    background-color: rgb(29, 5, 236);
+    text-align: center;
+    padding: 40px;
+
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.ALLbuttons{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.outvalue{
+    min-width: 350px;
+    max-width: 360px;
+    font-size: 40px;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+}
+
+.fthbutton{
+    background-color: #06daf6;
+    color: rgb(0, 0, 0);
+}
+
+.fthbutton:hover{
+    background-color: #4d36cf;
+    color: #ffffff;
+    transition: 0.5s;
+
+}
+
+.fthbutton:active{
+    background-color: #4d36cf;
+    color: rgb(255, 255, 255);
+}
+
+.threebutton{
+    background-color: #4d36cf;
+    color: rgb(0, 0, 0);
+}
+
+.threebutton:hover{
+    background-color: #06daf6;
+    color: rgb(231, 231, 231);
+    transition: 0.5s;
+}
+
+.threebutton:active{
+    background-color: #06daf6   ;
+    color: white;
+}
+
+.sndbutton{
+    background-color: #3785df;
+    color: rgb(0, 0, 0);
+}
+
+.sndbutton:hover{
+    background-color: rgb(6, 46, 65);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+}
+
+.sndbutton:active{
+    background-color: rgb(6, 46, 65);
+    color: rgb(255, 253, 253);
+}
+
